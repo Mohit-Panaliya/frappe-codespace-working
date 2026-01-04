@@ -27,7 +27,7 @@ bench init \
   --frappe-branch version-15 \
   --ignore-exist \
   --skip-redis-config-generation \
-  frappe-bench
+  frappe-bench --force
 
 # Change directory to the new bench
 cd frappe-bench
