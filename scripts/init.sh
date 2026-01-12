@@ -39,7 +39,7 @@ if [ -d "$WORKSPACE_DIR/.git" ]; then
 fi
 
 # Move to workspace
-cd "$WORKSPACE_DIR"
+# cd "$WORKSPACE_DIR"
 
 # 4. Initialize Frappe Bench
 # Added --verbose to help debug if it fails
